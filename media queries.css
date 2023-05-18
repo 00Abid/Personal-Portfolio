@@ -1,0 +1,70 @@
+@media screen and (max-width:991px){
+    header{
+        left: -120%;
+    }
+    #menu{
+        display: block;
+    }
+    header.toggle{
+        left: 0;
+    }
+
+    body{
+        padding: 0;
+    }
+
+    .container1 {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    html{
+        font-size: 50%;
+    }
+    .row {
+        justify-content: center;
+    }       
+}
+
+
+@media screen and (max-width:479px){
+    html{
+        font-size: 40%;
+    }
+    .home{
+        padding:20px;
+    }
+    .home h1{
+        font-size: 3rem;
+    }
+
+    .home h3{
+        font-size: 1.5rem;
+    }
+
+    .home p{
+        font-size: 1.1rem;
+    }
+    header{
+        width:100vw;
+    }
+    .box1{
+        width: 100%;
+    }
+    
+    .box2{
+        width: 100%;
+    }
+    
+    .box3{
+        width: 100%;
+    }
+    .row {
+        justify-content: center;
+    } 
+    .box {
+        width: 100%;
+    }
+}
